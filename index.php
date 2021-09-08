@@ -28,7 +28,29 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<!-- Her skal sidens indhold ligge -->
+<div class="container-score">
+    <h2>Score</h2>
+
+    <div id="inputArea">
+    <button id="minus">-</button>
+    <input type="number" value="0">
+    <button id="plus">+</button>
+    </div>
+
+    <div id="amount">
+        <p>Total:</p>
+        <input type="number" value="0">
+    </div>
+
+    <div id="action">
+        <button id="startOver">Start Over</button>
+        <button id="reset">reset</button>
+    </div>
+
+
+</div>
+
+
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
