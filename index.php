@@ -52,5 +52,6 @@
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="js/app.js"></script>
 </body>
 </html>
