@@ -33,8 +33,23 @@
 
     <div class="inputArea">
     <button class="minus">-</button>
-    <input type="number" value="0">
+    <input class="input" type="number" value="0">
     <button class="plus">+</button>
+    </div>
+    <div class="inputArea">
+        <button class="minus">-</button>
+        <input class="input" type="number" value="0">
+        <button class="plus">+</button>
+    </div>
+    <div class="inputArea">
+        <button class="minus">-</button>
+        <input class="input" type="number" value="0">
+        <button class="plus">+</button>
+    </div>
+    <div class="inputArea">
+        <button class="minus">-</button>
+        <input class="input" type="number" value="0">
+        <button class="plus">+</button>
     </div>
 
 
@@ -43,7 +58,7 @@
 
     <div class="amount">
         <p>Total:</p>
-        <input type="number" value="0">
+        <input id="amount" type="text" value="0">
     </div>
 
     <div class="action">
