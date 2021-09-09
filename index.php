@@ -32,34 +32,22 @@
     <h2>Score</h2>
 
     <div class="inputArea">
-    <button id="minus">-</button>
+    <button class="minus">-</button>
     <input type="number" value="0">
-    <button id="plus">+</button>
-    </div>
-    <div class="inputArea">
-        <button id="minus">-</button>
-        <input type="number" value="0">
-        <button id="plus">+</button>
-    </div>
-    <div class="inputArea">
-        <button id="minus">-</button>
-        <input type="number" value="0">
-        <button id="plus">+</button>
-    </div>
-    <div class="inputArea">
-        <button id="minus">-</button>
-        <input type="number" value="0">
-        <button id="plus">+</button>
+    <button class="plus">+</button>
     </div>
 
 
-    <div id="amount">
+
+
+
+    <div class="amount">
         <p>Total:</p>
         <input type="number" value="0">
     </div>
 
-    <div id="action">
-        <button id="startOver">Start Over</button>
+    <div class="action">
+
         <button id="reset">reset</button>
     </div>
 
