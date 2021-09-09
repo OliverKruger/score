@@ -31,11 +31,27 @@
 <div class="container-score">
     <h2>Score</h2>
 
-    <div id="inputArea">
+    <div class="inputArea">
     <button id="minus">-</button>
     <input type="number" value="0">
     <button id="plus">+</button>
     </div>
+    <div class="inputArea">
+        <button id="minus">-</button>
+        <input type="number" value="0">
+        <button id="plus">+</button>
+    </div>
+    <div class="inputArea">
+        <button id="minus">-</button>
+        <input type="number" value="0">
+        <button id="plus">+</button>
+    </div>
+    <div class="inputArea">
+        <button id="minus">-</button>
+        <input type="number" value="0">
+        <button id="plus">+</button>
+    </div>
+
 
     <div id="amount">
         <p>Total:</p>
