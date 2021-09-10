@@ -3,12 +3,12 @@ export default class Score {
 
         this.plusButton = document.querySelectorAll('.plus');
         this.minusButton = document.querySelectorAll('.minus');
-        this.resetButton = document.querySelector('#reset');
+
 
 
         this.plusButton.forEach(plusBtn => plusBtn.addEventListener('click', () => this.addValue(plusBtn)));
         this.minusButton.forEach(minusBtn => minusBtn.addEventListener('click', () => this.minusValue(minusBtn)));
-        this.resetButton.for(reset => reset.addEventListener('click', () => this.reset(reset)));
+
 
     };
 
@@ -42,12 +42,24 @@ export default class Score {
         document.querySelector('#amount').value = total;
     }
 
-reset(){
-    plz.forEach(input => input.value = '');
+
 }
+
+/*
+this.resetButton = document.querySelector('#reset');
+
+this.resetButton.for(reset => reset.addEventListener('click', () => this.reset(reset)));
+
+function reset (){
+    const clear = document.querySelector('#amount');
+    clear.addEventListener('click', () => {
+        reset.for(input => input.value='');
+    });
 
 
 }
+
+*/
 
 
 
