@@ -54,12 +54,6 @@ reset(){
 
 
 
-const resetBtn = document.querySelector('#reset');
-
-resetBtn.addEventListener('click', () => {
-    plz.forEach(input => input.value = '');
-
-});
 
 
 
